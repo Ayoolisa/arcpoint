@@ -275,17 +275,31 @@ video {
     align-items: center;
 }
 
-.footer {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    gap: 2rem;
-    padding: 5rem 5%;
-    height: 40vh;
-    background-color: var(--black-color);
-    background-size: cover;
+.footer .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(23rem, 1fr));
+    gap: 1.5rem;
+    padding: 5rem 9%;
 }
 
-.footer .footer-container {
-    flex: 1 1 45rem;
+.footer .box-container .box a {
+    display: block;
+    font-size: 3rem;
+    padding: 1rem 0;
+    color: var(--bg-color);
+    text-transform: capitalize;
 }
+
+.footer .box-container .box p {
+    display: block;
+    font-size: 2.5rem;
+    padding: 1rem 0;
+    color: var(--bg-color);
+    text-transform: capitalize;
+}
+
+
+.footer .box-container .box a:hover {
+    color: var(--dark-orange);
+}
+ 
