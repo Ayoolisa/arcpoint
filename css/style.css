@@ -134,13 +134,14 @@ section {
     flex: 1 1 45rem;
     flex-direction: column;
     margin-top: 9rem;
-    height: 150vh;
+    height: 100vh;
     background: url('/assets/3d-futuristic-illustration-with-flowing-cyber-dots.jpg');
     width: 100%;
     background-size: cover;
 }
 
 .hero .content {
+    margin-top: 19rem;
     padding: 0 9%;
 }
 
